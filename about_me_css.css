@@ -1,3 +1,20 @@
-#a{
-  font-family: monospace;
+p{
+  font-family: sans-serif;
+}
+h1{
+  color: black;
+
+}
+h2{
+  font-size: 20px;
+}
+
+.college{
+  font-size: 30px;
+  color:blue;
+}
+
+.tictactoeLink{
+  font-size: 20px;
+  color:red;
 }

@@ -1,16 +1,23 @@
 <!DOCTYPE html>
   <html>
     <head>
+      <link rel = "stylesheet" href = "about_me_css.css">
       <title>My Blog</title>
     </head>
     <body>
-      <h1>About Me</h1>
+      <h1>Hello there Stranger!</h1>
+      <form name = "userGreeting">
+        <label>What is your name?</label>
+        <input type = "text" id = "nameOfUser">
+        <input type = "button" id = "ok_button" value = "Submit Name">
+      </form>
+      <h2>Here are some things that you should know about me:</h2>
       <ul>
         <li>My name is Jose</li>
         <li>I am 18 years old</li>
         <li>I was born on June 11, 1999</li>
       </ul>
-      <p id = "a">
+      <p>
         For my major, I want to study computer science.
         <br>
         When I was younger, I would have this computer that was incredibly slow.
@@ -26,8 +33,10 @@
       <h2>School</h2>
       <p>I am planning to go to the University at Buffalo for college.</p>
       </br>
-      <a href = "http://www.buffalo.edu">My College</a>
+      <a class = "college" href = "http://www.buffalo.edu">My College</a>
       </br>
       <a href = "about_me_pt2.html"><img src= "http://wyrk.com/files/2013/08/UB.jpg"/></a>
+      <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src = "about_me.js"></script>
     </body>
   </html>
